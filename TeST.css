@@ -221,18 +221,20 @@ a.two:link {
 }
 .container4 {
   position: relative;
+  background-color: whitesmoke;
 }
 
 .text-box {
   position: absolute;
   max-width: 480px;
   max-height: 640px;
-  background-color: whitesmoke;
+  background-color: white;
   color: black;
   right: 90px;
   bottom: -20px;
   display: inline-block;
   padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .thirdLink {
@@ -254,27 +256,36 @@ a.two:link {
   size: 14px;
 }
 .container5 {
-  position: relative;
+  background-color: white;
+  width: 1440px;
+  height: 750px;
+}
+.employeeList {
+  height: 350px;
 }
 .employeeList img {
-  width: 480px;
+  width: 400px;
   height: 300px;
 }
-.employeeList .jobList {
+.jobList {
+  height: 250px;
+}
+.jobList h4 p {
   display: flex;
+  margin-left: 70px;
   align-content: center;
 }
-.col-1-Con5 {
+.container5 .col-1-Con5 {
   width: 33%;
   float: left;
   padding: 2%;
 }
-.col-2-Con5 {
+.container5 .col-2-Con5 {
   width: 33%;
   float: left;
   padding: 2%;
 }
-.col-3-Con5 {
+.container5 .col-3-Con5 {
   width: 33%;
   float: left;
   padding: 2%;
@@ -286,10 +297,146 @@ a.two:link {
   font: bolder;
   text-align: left;
 }
+
+.container6 {
+  background-color: whitesmoke;
+  width: 1440px;
+  height: 450px;
+}
+
 .purpose {
   margin-left: 400px;
   text-align: justify;
   text-align: center;
   max-width: 700px;
   position: relative;
+  padding-top: 50px;
+}
+.brandList {
+  text-align: center;
+  width: fit-content;
+}
+.brandList p {
+  font-size: 15px;
+}
+.col-1-Con6 {
+  width: 33%;
+  float: left;
+  padding: 5%;
+}
+.col-2-Con6 {
+  width: 33%;
+  float: left;
+  padding: 5%;
+}
+.col-3-Con6 {
+  width: 33%;
+  float: left;
+  padding: 5%;
+}
+
+.container7 {
+  width: 1440px;
+  width: 500px;
+  display: flex;
+}
+.info {
+  display: inline-flex;
+}
+.topper {
+  width: 500px;
+  height: 300px;
+  margin-left: 100px;
+  text-align: justify;
+  padding-top: 100px;
+}
+.lower {
+  padding-left: 70px;
+  width: 1440px;
+  height: 300px;
+  background-color: #038ab3;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.info {
+  font-size: 14px;
+  display: inline-flexbox;
+  width: 700px;
+}
+
+input[type="text"] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+}
+input[type="number"] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+}
+.endPic {
+  position: absolute;
+  right: 0;
+  margin-top: 120px;
+}
+
+.container8 {
+  width: 1440px;
+  height: 600px;
+  background-color: white;
+}
+
+.col-1-Con8 {
+  width: 25%;
+  float: left;
+  padding: 5%;
+}
+
+.col-2-Con8 {
+  width: 25%;
+  float: left;
+  padding: 5%;
+}
+.col-3-Con8 {
+  width: 25%;
+  float: left;
+  padding: 5%;
+}
+.col-4-Con8 {
+  width: 25%;
+  float: left;
+  padding: 5%;
+}
+.social {
+  display: flex;
+}
+.container8 .col-1-Con8 .social .icon {
+  width: 35px;
+  height: 35px;
+  background: #0bb5f4;
+  color: #fff;
+  border-radius: 90%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+.container8 .icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lodg,
+.forRenter,
+.forLodgLord {
+  line-height: 40px;
 }
